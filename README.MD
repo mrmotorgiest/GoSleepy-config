@@ -1,1 +1,1 @@
-YUPPP
+An starting config for gosleepy
