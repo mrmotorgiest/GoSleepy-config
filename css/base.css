@@ -1,0 +1,32 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+window {
+    background-color: #181818;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+header {
+    height: 50px;
+    background-color: #222222;
+    padding: 15px;
+    border-bottom: 1px solid #333333;
+}
+
+main {
+    background-color: #181818;
+    padding: 10px;
+}
+
+footer {
+    height: 25px;
+    background-color: #222222;
+    color: #888888;
+    padding: 5px;
+    font-size: 12px;
+}

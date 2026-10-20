@@ -1,0 +1,6 @@
+title: "My DAW"
+window_width: 1000
+window_height: 700
+
+register:
+  path: "./layout/base.yaml"

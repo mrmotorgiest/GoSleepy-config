@@ -1,0 +1,19 @@
+ui:
+  theme: "dark"
+  stylesheet: "styles.css"
+
+  layout:
+    - headerz
+    - main
+    - footer
+
+  header:
+    height: 50
+    text: "My DAW"
+ 
+  main:
+    type: "container"
+
+  footer:
+    height: 25
+    text: "Ready"
