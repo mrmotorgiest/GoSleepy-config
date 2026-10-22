@@ -1,0 +1,23 @@
+menu_bar:
+  padding: "8"
+  spacing: "8"
+  orientation: horizontal
+  items:
+    - label: File
+      subitems:
+        - label: New
+          action: file:new
+        - label: Open
+          action: file:open
+        - label: Quit
+          action: file:quit
+    - label: Edit
+      subitems:
+        - label: Undo
+          action: undo
+        - label: Redo
+          action: redo
+    - label: Help
+      subitems:
+        - label: About
+          action: misc:about
