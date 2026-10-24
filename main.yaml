@@ -1,6 +1,6 @@
-title: "My DAW"
-window_width: 1000
-window_height: 700
+title: "GoSleepy"
+window_width: 1920
+window_height: 1080
 
 register:
   menu_bar: layout/menu_bar.yaml 
