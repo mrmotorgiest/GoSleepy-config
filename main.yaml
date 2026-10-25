@@ -2,5 +2,10 @@ title: "GoSleepy"
 window_width: 1920
 window_height: 1080
 
+font:
+  main: 
+    path: "assets/LeagueSpartan-Bold.otf"
+    size: 16
+
 register:
   menu_bar: layout/menu_bar.yaml 
