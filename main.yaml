@@ -5,7 +5,10 @@ window_height: 1080
 font:
   main: 
     path: "assets/LeagueSpartan-Bold.otf"
-    size: 16
+    size: 6
 
 register:
-  menu_bar: layout/menu_bar.yaml 
+  menu_bar: layout/menu_bar.yaml
+
+stylesheet:
+  main_path: "/css/base.css"
