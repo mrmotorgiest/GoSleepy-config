@@ -1,14 +1,19 @@
 title: "GoSleepy"
 window_width: 1920
 window_height: 1080
+tiling: "static"
 
 font:
   main: 
     path: "assets/LeagueSpartan-Bold.otf"
     size: 6
+  alt:
+    path: "assets/LeagueSpartan-Bold.otf"
+    size: 12
 
 register:
-  menu_bar: layout/menu_bar.yaml
+  menu_bar: layout/menubar.yaml
+  tool_bar: layout/toolbar.yaml
 
 stylesheet:
   main_path: "/css/base.css"

@@ -1,0 +1,19 @@
+toolbar:
+  type: hbox
+  position: top
+  orientation: horizontal
+
+  items:
+    - label: Home
+      action: tool_group:home
+    - label: Edit
+      action: tool_group:edit
+    - label: MIDI
+      action: tool_group:midi
+  
+  padding: "8"
+  spacing: "8"
+
+  font: main
+  css: css/toolbar.css
+  
