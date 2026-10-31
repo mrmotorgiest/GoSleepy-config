@@ -1,18 +1,25 @@
 toolbar:
-  type: hbox
+  type: vbox
   position: top
-  orientation: horizontal
+  priority: 1
+  id: "toolbar"
 
   items:
     - label: Home
+      type: button
       action: tool_group:home
     - label: Edit
+      type: button
       action: tool_group:edit
     - label: MIDI
+      type: button
+      action: tool_group:midi
+    - label: Misc
+      type: button
       action: tool_group:midi
   
-  padding: "8"
-  spacing: "8"
+  padding: "4"
+  spacing: "4"
 
   font: main
   css: css/toolbar.css
