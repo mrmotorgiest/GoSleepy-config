@@ -1,5 +1,0 @@
-main {
-    register {
-        "layout/toolbar.gs.layout" 
-    }
-}
