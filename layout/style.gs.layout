@@ -1,0 +1,10 @@
+$file-type : style
+
+.main.layout.toolbar.$style {    
+    align-items: centre
+    gap: 4px
+    padding: 4px
+    background-color: #20242b
+    border-bottom: 1px solid #39414b
+    color: #e8edf2
+}

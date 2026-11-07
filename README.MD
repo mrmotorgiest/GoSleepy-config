@@ -1,20 +1,24 @@
-GoSleepy uses an diffirent type of configurations like ```main.gs.layout``` specificaly made for the DAW, because fyne dosent accept css and yaml is too yanky to use.
+GoSleepy uses ```.gs``` configurations based off mostly yaml and css.
 
 # Basics
-As you can see every file is named by its name and type:
-``` name.gs.type ```
+Most files is structured like ``` name.gs.package ```. Every file is part of an package.
 
-Every type is treated as an package.
-
-To begin your configuration make **main.gs.setup** in the root directory of you configuration and add code like: <br> 
+To begin your configuration make **main.gs** in the root directory of you configuration and add code like: <br> 
 ```
-main {
-    register {
-        "layout/toolbar.gs.layout" 
+$include {
+    "layout/*"
+}
+
+.setup {
+    resolution: 1920x1080
+    title: "GoSleepy"
+    tiling: windowed
+
+    items<item , priority> {
+        
     }
 }
 ``` 
 <br>
-from there you can add your layout paths, make sure that they are added from root directory of your configuration like / + layout/main.gs.layout .
+From the main file you can add other files or change basic stuff like resolution.
 <br>
-
