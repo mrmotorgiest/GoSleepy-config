@@ -1,7 +1,6 @@
 .toolbar{
     items.type: button
-    //the $id in this case makes it from "a,b,c" to "a: b,c"
-    items< $id , action> {
+    items<$id , action> {
         Home : test
         Edit : test
         Misc : test

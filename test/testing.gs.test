@@ -1,0 +1,26 @@
+//test of mi markdown
+.something {
+    integer : 102
+    string : "hi"
+    boolean : true
+    boolean2<bool> : 1
+    char1 : 'w'
+    arr: {"yes" , "yes"}
+
+    //vectors need to have <vector[i]> in them otherwise they will be declared as arrays
+    vec<vector[2]> : {1 , 10}
+
+    asci_char<char> : 0xab
+    int1:102
+    int2<int>:102
+    int3 = 102
+
+    class{
+        int1 : 103
+        int2 : 104
+    }
+    specialclass(thing1<string> : thing2<int> , thing3<bool>) {
+        label : 1 , true
+        label2 : 2 , true
+    }
+}
